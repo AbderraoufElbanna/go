@@ -1,5 +1,6 @@
 function isPalindrome(word) {
-    const cleanWord = word.toLowerCase().replace(/[^a-z]/g, ''); // Convert to lowercase and remove non-alphabetic characters
+    const cleanWord = word.toLowerCase().replace(/[^a-z]/g, ''); 
+    // Hi World
     const length = cleanWord.length;
     
     for (let i = 0; i < Math.floor(length / 2); i++) {
