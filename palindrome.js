@@ -12,7 +12,7 @@ function isPalindrome(word) {
     return true;
 }
 
-// Example usage
+// 20223
 const wordsToTest = ["gag", "kayak", "php", "radar", "hello", "world"];
 for (const word of wordsToTest) {
     console.log(`${word} is a palindrome: ${isPalindrome(word)}`);
